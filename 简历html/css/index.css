@@ -1,0 +1,135 @@
+@media screen and (min-width: 960px){
+    .warp{
+        width: 100%;
+    }
+    .left{
+        width: 20%;
+        height: 1000px;
+        background-color: aqua;
+        text-align: center;
+        border: 1px solid aqua;
+        float: left;
+    }
+    .left h1{
+        color: white;
+
+    }
+    .left img{
+        width: 200px;
+        height: 200px;
+    }
+    .left .uesrname{
+        margin-top: 100px;
+    }
+    .left .phone{
+        margin-left: 50px;
+        text-align: left;
+    }
+    .left .phone h2{
+          color: white;
+
+      }
+
+    .center{
+        width: 79%;
+        float: left;
+        text-align: center;
+        margin-top: 30px;
+    }
+    .center .title a{
+        text-decoration: none;
+        font-size: 30px;
+        font-weight: bold;
+        margin-right: 50px;
+        color: black;
+    }
+    .center .contact{
+        text-align: left;
+
+    }
+    .center .contact h2{
+        background-color: aqua;
+        color: white;;
+        width: 110px;
+    }
+    .search textarea{
+        height: 40px;
+        width: 820px;
+        margin-bottom: 30px;
+        border: 1px solid black;
+        resize : none;
+    }
+    .search .button{
+        text-align: left;
+        margin-left: 80px;
+    }
+    .search  button{
+        width: 100px;
+        height: 50px;
+        background-color: darkorange;
+        color: white;
+        font-weight: bold;
+        font-size: 18px;
+    }
+}
+@media screen and (max-width: 960px){
+    .left{
+        width: 1000px;
+        height: 10%;
+        background-color: aqua;
+        border: 1px solid aqua;
+        float: left;
+    }
+    .left h1{
+        color: white;
+    }
+    .left img{
+        width: 200px;
+        height: 200px;
+    }
+    .left .uesrname{
+        float: left;
+        margin-left: 60px;
+    }
+    .left .phone{
+        float: left;
+        margin-left: 180px;
+    }
+    .left .phone h2{
+        color: white;
+    }
+    .center .title a{
+        text-decoration: none;
+        font-size: 20px;
+        font-weight: bold;
+        margin-left: 50px;
+        color: black;
+    }
+    .center .contact h2{
+        background-color: aqua;
+        margin-top: 50px;
+        color: white;;
+        width: 110px;
+    }
+    .search .button{
+        text-align: left;
+
+    }
+    .search textarea{
+        height: 30px;
+        border: 1px solid black;
+        resize : none;
+    }
+    .search .message{
+        height: 120px;
+    }
+    .search  button{
+        width: 100px;
+        height: 50px;
+        background-color: darkorange;
+        color: white;
+        font-weight: bold;
+        font-size: 18px;
+    }
+
+}
